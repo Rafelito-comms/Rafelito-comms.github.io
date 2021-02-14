@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+    font-family: 'Kalam', cursive;
+    background-color: white;
+    height: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 600px 200px 250px 100px;
+    grid-gap: 0;
+    margin: auto;
+}
+
+.jujutsu-container{
+    height: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.btn-a:hover{
+color: crimson;
+}
+
+
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: #fcbf49;
+    color: #43aa8b;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+    border: 3px solid #43aa8b;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.btn:hover{
+    background-color: rgb(  #fcbf49);
+    color: rgb(#43aa8b);
+}
+
+.nav-bar{
+    grid-column: 1 / -1;
+    box-shadow: 1px 1px 5px #bbb;
+    background-color: #d62828;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-gap: 10px;
+    margin: auto;
+    width: 90%;
+}
+
+.logo{
+    width: 35%;
+}
+
+
+.menu{
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu-item{
+    margin-left: 10px;
+    color: #003049;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    color:#f4acb7;
+}
+
+.jujutsu{
+ grid-column: 1 / -1;
+ width: 100vw;
+ background-size: cover;
+ background: linear-gradient(#d62828 0%, #f77f00 75%);
+}
+
+.updates{
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.jujutsu h1{
+    font-size: 44px;
+    line-height: 10px;
+    color: #eae2b7;
+}
+
+
+.box{
+
+text-align: center;
+}
+ 
+.box img{
+    width: 90%;
+    height: 70%;
+    box-shadow: 2px 3px 6px #520606;
+}
+
+.box img:hover{
+    opacity: 0.5;
+    width: 87%;
+    height: 90%;
+}
+.pie{
+    margin-top: 50px;
+    grid-column: 1 / -1;
+    text-align: center;
+}
